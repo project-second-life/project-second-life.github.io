@@ -1,0 +1,164 @@
+#main {
+  width: 90%;
+  margin: 20px auto;
+  color: white;
+  display: flex;
+}
+
+/*Side Menu*/
+#side-menu-container {
+  margin-top: 40px;
+  width: 300px;
+  display: none;
+}
+
+.side-menu {
+  margin-bottom: 50px;
+  width: 100%;
+}
+.side-menu header {
+  font-weight: bold;
+}
+.side-menu ul {
+  list-style: none;
+  padding: 0;
+}
+.side-menu ul li {
+  font-size: 0.8em;
+  padding: 5px;
+}
+
+/*content*/
+#content {
+  margin-top: 40px;
+  width: 100%;
+}
+#content header h1 {
+  text-align: center;
+}
+
+#header-image {
+  width: 100%;
+  height: 450px;
+}
+
+/*Filter*/
+.filter {
+  display: flex;
+  width: 100%;
+  font-size: 1.5em;
+  flex-wrap: wrap;
+}
+
+.left-filter {
+  width: 100%;
+  padding-left: 20px;
+  display: flex;
+}
+.left-filter div {
+  box-sizing: border-box;
+  padding-right: 50px;
+  padding-top: 10px;
+}
+
+.right-filter {
+  width: 100%;
+  padding-right: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.right-filter div {
+  padding-right: 50px;
+  box-sizing: border-box;
+  padding-top: 10px;
+}
+#small-grid {
+  padding-right: 10px;
+}
+#large-grid {
+  padding-right: 10px;
+}
+#single-grid {
+  padding-right: 10px;
+  display: none;
+}
+
+/*load more product*/
+.view-more {
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.view-more a {
+  color: white;
+}
+
+button {
+  margin-top: 5px;
+  padding: 5px 20px;
+  width: 30%;
+}
+
+
+
+/*Mobile*/
+@media all and (max-width: 412px) {
+  #content header{
+    display: none;
+  }
+
+  .card-item{
+    width: 46%;
+  }
+  .filter{
+    width: 100%;
+    font-size: 1em;
+  }
+  .left-filter{
+    width: 100%;
+    padding: 0;
+    margin:5px 10px;
+  }
+
+  .right-filter{
+    padding-right: 5px;
+  }
+  .left-filter div{
+    background-color: white;
+    width: 100%;
+    color:black;
+    text-align: center;
+    padding: 10px;
+  }
+
+  #small-grid{
+    display: none;
+  }
+
+  #single-grid{
+    display:block;
+  }
+
+  .item-img .image{
+    height: 200px;
+  }
+
+  .card-item-description{
+    font-size: 25px;
+    padding:10px;
+  }
+  .price{
+    font-size:20px;
+  }
+
+  #large-grid g{
+    fill:white;
+  }
+
+  .view-more button {
+    width: 90%;
+  }
+
+}
+

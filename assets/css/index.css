@@ -1,0 +1,262 @@
+/*index*/
+#main{
+    width: 70%;
+    margin:20px auto;
+}
+
+/* Slide */
+/* Slideshow container */
+.slideshow-container {
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  .mySlides img{
+    width: 100%;
+    height: 400px;
+    border: rgba(255, 252, 252, 0.1) 1px solid;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  .dot-container{
+      margin-top: -50px;
+      text-align: center;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+
+/*SALE*/
+#sale{
+    margin: 20px auto;
+    margin-top: 50px;
+    box-sizing: border-box;
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    height: 100px;
+    font-size: 3em;
+    text-align: center;
+}
+  
+/*Card Layout Sale*/
+.carousel-container {
+  width: 100%;
+  margin: auto;
+  margin-top: 10px;
+  position: relative;
+}
+@media (max-width: 768px) {
+  .carousel-container {
+    width: 95%;
+  }
+}
+.inner-carousel {
+  width: 100%;
+  overflow: hidden;
+}
+.track {
+  display: inline-flex;
+  height: 100%;
+  transition: transform 0.2s ease-in-out;
+}
+.card-container {
+  width: 33%;
+  flex-shrink: 0;
+  padding-right: 10px;
+  border: rgba(255, 252, 252, 0.1) 1px solid;
+  height: 250px;
+}
+
+.card-container img{
+  width: 100%;
+  height: 170px;
+}
+@media (max-width: 768px) {
+  .card-container {
+    width: 184px;
+  }
+}
+
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(218, 212, 212, 0.2);
+}
+
+.card-description {
+  border-top: rgba(255, 252, 252, 0.5) 1px solid;
+  padding: 2px 16px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.card {
+  width: 100%;
+  height: 100%;
+  background-position: center bottom;
+  background-size: center;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.card a{
+  text-decoration: none;
+  color:black;
+}
+
+.card a:visited{
+  color:black;
+}
+
+.nav button {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  outline: none;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+.nav .prev-sale {
+  left: -30px;
+  display: none;
+}
+.nav .prev-sale.show {
+  display: block;
+}
+.nav .next-sale {
+  right: -30px;
+}
+.nav .next-sale.hide {
+  display: none;
+}
+
+/*New Arrival*/
+.new-arrival{
+  color: white;
+  width: 100%;
+}
+
+.new-arrival header{
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+
+.view-more{
+  margin-top: 10px;
+  text-align: center;
+}
+.view-more a{
+  color: white;
+}
+
+
+
+.newsletter{
+  width: 100%;
+  display: none;
+}
+.newsletter h4{
+  color: white;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+.newsletter-mobile {
+  background-color: #E8E5E5;
+  color:black;
+  margin: auto;
+  padding: 0;
+  padding-bottom:20px;
+  border: 1px solid #707070;
+ 
+}
+
+.newsletter-header {
+  padding: 2px 16px;
+}
+
+.newsletter-body {
+  padding: 2px 16px;
+}
+.newsletter-body .newsletter-email {
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter-body input {
+  vertical-align: middle;
+  
+}
+
+/*Mobile*/
+@media all and (max-width: 412px) {
+  #main{
+    width: 90%;
+  }
+  .item-container{
+    width: 100%;
+  }
+  .card-item{
+    width:45%
+  }
+
+  .item-img .image{
+    height: 200px;
+  }
+
+  .newsletter{
+    display: block;
+  }
+
+  .mySlides img{
+    height: 200px;
+  }
+}

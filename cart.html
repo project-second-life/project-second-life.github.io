@@ -1,0 +1,359 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>SHOPPING CART</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/cart.css" />
+
+</head>
+
+<body>
+   <!-- Header -->
+  <header id="header" class="alt">
+    <section id="top-header">
+      <div id="top-header-left">
+        <ul>
+          <li>Contact Us</li>
+          <li id="newsletter">Newsletter Signup</li>
+        </ul>
+      </div>
+      <div id="top-header-right">
+        <ul>
+          <li>My Account</li>
+          <li>Login/Register</li>
+          <li>English &#x25BC;</li>
+          <li><img src="assets/images/icons/location.svg" width="25px" height="25px" />Our Location</li>
+          <li><img src="assets/images/icons/shopping-cart.svg" width="25px" height="25px" />Shopping Cart (0)</li>
+        </ul>
+      </div>
+    </section>
+    <span class="logo"><a href="index.html"><img src="assets/images/logo.svg" alt="logo" /></a></span>
+
+    <!-- Nav -->
+    <nav id="nav">
+      <ul>
+        <li>
+          <a href="#">Games &#x25BC;</a>
+          <ul>
+            <li class="exit">&times;</li>
+            <li><a href="#">Trading Card Games</a></li>
+            <li><a href="#">TCG Singles</a></li>
+            <li><a href="#">Board Games &#x25BC;</a></li>
+            <li><a href="#">Tabletop Games</a></li>
+            <li><a href="#">Paint and Tools</a></li>
+            <li><a href="#">Model Kits</a></li>
+            <li><a href="#">Role Playing Games</a></li>
+            <li><a href="#">Sport Cards</a></li>
+          </ul>
+
+        </li>
+        <li><a href="#">Pre-orders</a></li>
+        <li><a href="#">Clearance</a></li>
+        <li><a href="#" style="color:red">Sale</a></li>
+      </ul>
+      <div id="search">
+        <input type="text" name="search-input" placeholder="Search Product" />
+      </div>
+    </nav>
+  </header>
+
+  <header class="mobile-header">
+    <!-- Nav Mobile -->
+    <div class="mobile-header-left">
+      <img src="assets/images/icons/bars.svg" class="menu-bar" />
+      <img src="assets/images/logo.svg" />
+    </div>
+    <div class="mobile-header-right">
+      <img src="assets/images/icons/search.svg" />
+      <img src="assets/images/icons/location.svg" />
+      <img src="assets/images/icons/shopping-cart.svg" />
+    </div>
+    <nav class="mobile-menu">
+      <ul>
+        <li><img src="assets/images/icons/home.svg" class="home"></li>
+        <li><a href="#">Login/Register</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Trading Card Games</a></li>
+        <li><a href="#">TCG Singles</a></li>
+        <li><a href="#">Board Games</a></li>
+        <li><a href="#">Tabletop Games</a></li>
+        <li><a href="#">Paints and Tools</a></li>
+        <li><a href="#">Model Kits</a></li>
+        <li><a href="#">Role Playing Games</a></li>
+        <li><a href="#">Sport Cards</a></li>
+        <li><a href="#">Pre-orders</a></li>
+        <li><a href="#" style="color:red">Clearance/Sale</a></li>
+      </ul>
+    </nav>
+  </header>
+    <!-- BreadCrumb -->
+    <section class="breadcrumb">
+        <h2>
+            <span>GUF.COM/SHOPPING CART</span>
+        </h2>
+    </section>
+    <section class="breadcrumb-mobile">
+        <h2>
+          <span>GUF.COM/SHOPPING CART</span>
+        </h2>
+      </section>
+    <!-- Main -->
+    <h1>
+        SHOPPING CART
+    </h1>
+    <div id="main">
+        <section class="list-cart">
+            <img src="assets/images/products/dungeonandsnake.jpg">
+            <div class="detail">
+                <h2>DUNGEON AND SNAKES</h2>
+                <div class="price">$13.00</div>
+                <table>
+                    <tr>
+                        <td>Product No: </td>
+                        <td>1017B72849F</td>
+                    </tr>
+                    <tr>
+                        <td>Total: </td>
+                        <td>$13.00</td>
+                    </tr>
+                    <tr>
+                        <td>Quantity: </td>
+                        <td><input type="number" step="1"
+                                style="background-color: transparent; color: white; border:#707070 1px solid; padding:5px;"
+                                value="1"></td>
+                    </tr>
+                </table>
+
+            </div>
+        </section>
+
+        <section class="shopping-bag">
+            <h2>TOTAL</h2>
+            <hr>
+            <div>
+                <div>ADD DISCOUNT CODE</div>
+                <input type="text" class="discount-input"> <button class="add-button">ADD</button>
+            </div>
+            <hr>
+            <div>
+                <table>
+                    <tr>
+                        <td>PRODUCT(S) TOTAL</td>
+                        <td>$13.00</td>
+                    </tr>
+                    <tr>
+                        <td>TAX</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>TOTAL</td>
+                        <td>$13.00</td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <button class="checkout-button" onclick="document.location='checkout-1.html'">CONTINUE TO CHECKOUT</button>
+                <div class="small-note">Prices and delivery costs are not confirmed until you've reached the checkout
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="recommendation">
+        <hr>
+        <h1>POPULAR PRODUCTS</h1>
+        <div class="item-container">
+            <!-- first row -->
+            <div class="card-item hide">
+                <div class="item-img">
+                    <img src="assets/images/products/mansionoflost.png" style="width:100%" class="image">
+                    <img src="assets/images/icons/love.svg" class="like-icon">
+                </div>
+                <div class="card-item-description">
+                    <h4><b>Mansion of Lost</b></h4>
+                    <div class="price">$14</div>
+                </div>
+            </div>
+            <div class="card-item hide">
+                <div class="item-img">
+                    <img src="assets/images/products/duungeoncage.jpg" style="width:100%" class="image">
+                    <img src="assets/images/icons/love.svg" class="like-icon">
+                </div>
+                <div class="card-item-description">
+                    <h4><b>Dungeon Cage</b></h4>
+                    <div class="price">$1</div>
+                </div>
+            </div>
+            <div class="card-item hide">
+                <div class="item-img">
+                    <img src="assets/images/products/cluegame.jpg" style="width:100%" class="image">
+                    <img src="assets/images/icons/love.svg" class="like-icon">
+                </div>
+                <div class="card-item-description">
+                    <h4><b>Clue</b></h4>
+                    <div class="price">$4</div>
+                </div>
+            </div>
+            <div class="card-item hide">
+                <div class="item-img">
+                    <img src="assets/images/products/cluedo.jpg" style="width:100%" class="image">
+                    <img src="assets/images/icons/love.svg" class="like-icon">
+                </div>
+                <div class="card-item-description">
+                    <h4><b>Cluedo</b></h4>
+                    <div class="price">$12</div>
+                </div>
+            </div>
+            <!-- ssecond row -->
+            <div class="card-item hide">
+                <div class="item-img">
+                    <img src="assets/images/products/chesssetkids.jpg" style="width:100%" class="image">
+                    <img src="assets/images/icons/love.svg" class="like-icon">
+                </div>
+                <div class="card-item-description">
+                    <h4><b>Chess Set(Kids)</b></h4>
+                    <div class="price">$28</div>
+                </div>
+            </div>
+            <div class="card-item hide">
+                <div class="item-img">
+                    <img src="assets/images/products/gameoflife.jpg" style="width:100%" class="image">
+                    <img src="assets/images/icons/love.svg" class="like-icon">
+                </div>
+                <div class="card-item-description">
+                    <h4><b>Game of Life</b></h4>
+                    <div class="price">$20</div>
+                </div>
+            </div>
+            <div class="card-item hide">
+                <div class="item-img">
+                    <img src="assets/images/products/monopolydisney.jpg" style="width:100%" class="image">
+                    <img src="assets/images/icons/love.svg" class="like-icon">
+                </div>
+                <div class="card-item-description">
+                    <h4><b>Monopoly (Disney)</b></h4>
+                    <div class="price">$27</div>
+                </div>
+            </div>
+            <div class="card-item hide">
+                <div class="item-img">
+                    <img src="assets/images/products/monopolyavengers.jpeg" style="width:100%" class="image">
+                    <img src="assets/images/icons/love.svg" class="like-icon">
+                </div>
+                <div class="card-item-description">
+                    <h4><b>Monopoly (Avengers)</b></h4>
+                    <div class="price">$34</div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+    </section>
+
+    <hr>
+
+    <footer>
+        <section class="footer-link-container">
+            <div class="footer-link">
+                <header>SHOP</header>
+                <ul>
+                    <li>Games</li>
+                    <li>Pre-orders</li>
+                    <li>Clearance</li>
+                    <li>Sale</li>
+                </ul>
+            </div>
+
+            <div class="footer-link">
+                <header>CORPORATE INFO</header>
+                <ul>
+                    <li>About Us</li>
+                    <li>Blogs</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+            <div class="footer-link">
+                <header>HELP</header>
+                <ul>
+                    <li>Shipping Information</li>
+                    <li>Terms & Conditions</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+        </section>
+        <section class="social-media">
+            <ul>
+                <li><img src="assets/images/icons/facebook.svg"></li>
+                <li><img src="assets/images/icons/snapchat.svg"></li>
+                <li><img src="assets/images/icons/twitter.svg"></li>
+                <li><img src="assets/images/icons/instagram.svg"></li>
+                <li><img src="assets/images/icons/youtube.svg"></li>
+            </ul>
+        </section>
+        <section class="contact">
+            <p>
+                Guf Games business concept is to be the center for all the hobbies and pastimes.
+                Offering a wide range of PC, Console
+                and board games from simply family favorites to complex titles.
+                We have huge community play spaces for you to just sit back and relax in,
+                meet up with others that enjoy what you do, and even make a few new friends along the way.
+                Checkout our location in:
+                Ballarat, Bendigo, Geelong & Werribee
+            </p>
+            <br />
+            <p>
+                <div>Phone: 03-5331-8987</div>
+                <div>Email: orders@guf.com.au</div>
+            </p>
+        </section>
+        <section class="footer-logo">
+            <img src="assets/images/logo.svg" alt="logo" />
+        </section>
+        <section class="copyright">
+            Australia | AUD
+        </section>
+    </footer>
+
+    <!-- Newsletter -->
+  <div id="modal-newsletter" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h1>Newsletter Sign Up</h1>
+      </div>
+      <div class="modal-body">
+        <p>Sign up now and get:</p>
+        <ul>
+          <li>Exclusive Offer</li>
+          <li>The latest gaming tips</li>
+          <li>Special weekly events</li>
+        </ul>
+        <div class="newsletter-email">
+          <label>Email Address*</label>
+          <input type="email" name="signup-email">
+          <span class="small-note">Enter a valid e-mail address, ex: yourname@domainname.com</span>
+          <div style="margin-top: 10px;">
+            <input type="checkbox">
+            <label class="agreement">Yes, I would like to receive the latest news and I am over 16 years old (or have
+              the consent
+              of my parent(s) or legal guardian as applicable to sign up). By clicking 'Sign Up'
+              means I accept the Privacy Policy. </label>
+          </div>
+          <button style="margin-top: 10px; width: 100%;">YES, SIGN ME UP!</button>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+    <script src="assets/js/header.js"></script>
+</body>
+
+</html>

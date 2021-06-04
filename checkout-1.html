@@ -1,0 +1,294 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>CHECKOUT</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/checkout.css" />
+
+</head>
+
+<body>
+   <!-- Header -->
+  <header id="header" class="alt">
+    <section id="top-header">
+      <div id="top-header-left">
+        <ul>
+          <li>Contact Us</li>
+          <li id="newsletter">Newsletter Signup</li>
+        </ul>
+      </div>
+      <div id="top-header-right">
+        <ul>
+          <li>My Account</li>
+          <li>Login/Register</li>
+          <li>English &#x25BC;</li>
+          <li><img src="assets/images/icons/location.svg" width="25px" height="25px" />Our Location</li>
+          <li><img src="assets/images/icons/shopping-cart.svg" width="25px" height="25px" />Shopping Cart (0)</li>
+        </ul>
+      </div>
+    </section>
+    <span class="logo"><a href="index.html"><img src="assets/images/logo.svg" alt="logo" /></a></span>
+
+    <!-- Nav -->
+    <nav id="nav">
+      <ul>
+        <li>
+          <a href="#">Games &#x25BC;</a>
+          <ul>
+            <li class="exit">&times;</li>
+            <li><a href="#">Trading Card Games</a></li>
+            <li><a href="#">TCG Singles</a></li>
+            <li><a href="#">Board Games &#x25BC;</a></li>
+            <li><a href="#">Tabletop Games</a></li>
+            <li><a href="#">Paint and Tools</a></li>
+            <li><a href="#">Model Kits</a></li>
+            <li><a href="#">Role Playing Games</a></li>
+            <li><a href="#">Sport Cards</a></li>
+          </ul>
+
+        </li>
+        <li><a href="#">Pre-orders</a></li>
+        <li><a href="#">Clearance</a></li>
+        <li><a href="#" style="color:red">Sale</a></li>
+      </ul>
+      <div id="search">
+        <input type="text" name="search-input" placeholder="Search Product" />
+      </div>
+    </nav>
+  </header>
+
+  <header class="mobile-header">
+    <!-- Nav Mobile -->
+    <div class="mobile-header-left">
+      <img src="assets/images/icons/bars.svg" class="menu-bar" />
+      <img src="assets/images/logo.svg" />
+    </div>
+    <div class="mobile-header-right">
+      <img src="assets/images/icons/search.svg" />
+      <img src="assets/images/icons/location.svg" />
+      <img src="assets/images/icons/shopping-cart.svg" />
+    </div>
+    <nav class="mobile-menu">
+      <ul>
+        <li><img src="assets/images/icons/home.svg" class="home"></li>
+        <li><a href="#">Login/Register</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Trading Card Games</a></li>
+        <li><a href="#">TCG Singles</a></li>
+        <li><a href="#">Board Games</a></li>
+        <li><a href="#">Tabletop Games</a></li>
+        <li><a href="#">Paints and Tools</a></li>
+        <li><a href="#">Model Kits</a></li>
+        <li><a href="#">Role Playing Games</a></li>
+        <li><a href="#">Sport Cards</a></li>
+        <li><a href="#">Pre-orders</a></li>
+        <li><a href="#" style="color:red">Clearance/Sale</a></li>
+      </ul>
+    </nav>
+  </header>
+    <!-- BreadCrumb -->
+    <section class="breadcrumb">
+        <h2>
+            <span>GUF.COM/CHECKOUT PROCESS</span>
+        </h2>
+    </section>
+    <section class="breadcrumb-mobile">
+      <h2>
+          <span>GUF.COM/CHECKOUT PROCESS</span>
+      </h2>
+  </section>
+    <!-- Main -->
+    <h1>
+        CHECKOUT PROCESS
+    </h1>
+    <div id="main">
+        <div class="login">
+            <h2>RETURNING CUSTOMER</h2>
+            <hr>
+            <h3>LOG IN</h3>
+            <form method="POST" action="#">
+                <div class="login-form">
+                    <div>*Email</div>
+                    <input type="email" name="email" required>
+                    <div>*Password</div>
+                    <input type="password" name="password" required>
+                    <div><button type="submit" class="checkout-button" >CONTINUE TO CHECKOUT</button></div>
+                    <span class="small-note" style="text-decoration: underline;">Forgot your password?</span>
+                </div>
+            </form>
+        </div>
+
+        <div class="shopping-bag">
+            <h2>TOTAL</h2>
+            <hr>
+            <div>
+                ADD DISCOUNT CODE
+                <input type="text" class="discount-input"> <button class="add-button">ADD</button>
+            </div>
+            <hr>
+            <div>
+                <table>
+                    <tr>
+                        <td>PRODUCT(S) TOTAL</td>
+                        <td>$13.00</td>
+                    </tr>
+                    <tr>
+                        <td>TAX</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>TOTAL</td>
+                        <td>$13.00</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="register">
+            <h2>NEW CUSTOMER</h2>
+            <hr>
+            <br>
+            <span class="checkout-label">Create an account and checkout</span>
+            <div><button type="button" class="checkout-button" onclick="document.location='checkout-2.html'">CONTINUE TO CHECKOUT</button></div>
+            <div class="divider">
+                <h2><span>OR</span></h2>
+            </div>
+            <span class="checkout-label">Guest checkout</span>
+            <div><button type="button" class="checkout-button" >CHECKOUT AS GUEST</button></div>
+        </div>
+    </div>
+
+    <div class="shopping-bag mobile">
+      <hr>
+      <h2>TOTAL</h2>
+      <div>
+          <span>ADD DISCOUNT CODE</span>
+          <input type="text" class="discount-input"> <button class="add-button">ADD</button>
+      </div>
+      <hr>
+      <div>
+          <table>
+              <tr>
+                  <td>PRODUCT(S) TOTAL</td>
+                  <td>$13.00</td>
+              </tr>
+              <tr>
+                  <td>TAX</td>
+                  <td>-</td>
+              </tr>
+              <tr>
+                  <td>TOTAL</td>
+                  <td>$13.00</td>
+              </tr>
+          </table>
+      </div>
+  </div>
+
+
+
+    <hr>
+
+    <footer>
+        <section class="footer-link-container">
+            <div class="footer-link">
+                <header>SHOP</header>
+                <ul>
+                    <li>Games</li>
+                    <li>Pre-orders</li>
+                    <li>Clearance</li>
+                    <li>Sale</li>
+                </ul>
+            </div>
+
+            <div class="footer-link">
+                <header>CORPORATE INFO</header>
+                <ul>
+                    <li>About Us</li>
+                    <li>Blogs</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+            <div class="footer-link">
+                <header>HELP</header>
+                <ul>
+                    <li>Shipping Information</li>
+                    <li>Terms & Conditions</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+        </section>
+        <section class="social-media">
+            <ul>
+                <li><img src="assets/images/icons/facebook.svg"></li>
+                <li><img src="assets/images/icons/snapchat.svg"></li>
+                <li><img src="assets/images/icons/twitter.svg"></li>
+                <li><img src="assets/images/icons/instagram.svg"></li>
+                <li><img src="assets/images/icons/youtube.svg"></li>
+            </ul>
+        </section>
+        <section class="contact">
+            <p>
+                Guf Games business concept is to be the center for all the hobbies and pastimes.
+                Offering a wide range of PC, Console
+                and board games from simply family favorites to complex titles.
+                We have huge community play spaces for you to just sit back and relax in,
+                meet up with others that enjoy what you do, and even make a few new friends along the way.
+                Checkout our location in:
+                Ballarat, Bendigo, Geelong & Werribee
+            </p>
+            <br />
+            <p>
+                <div>Phone: 03-5331-8987</div>
+                <div>Email: orders@guf.com.au</div>
+            </p>
+        </section>
+        <section class="footer-logo">
+            <img src="assets/images/logo.svg" alt="logo" />
+        </section>
+        <section class="copyright">
+            Australia | AUD
+        </section>
+    </footer>
+
+    <!-- Newsletter -->
+  <div id="modal-newsletter" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h1>Newsletter Sign Up</h1>
+      </div>
+      <div class="modal-body">
+        <p>Sign up now and get:</p>
+        <ul>
+          <li>Exclusive Offer</li>
+          <li>The latest gaming tips</li>
+          <li>Special weekly events</li>
+        </ul>
+        <div class="newsletter-email">
+          <label>Email Address*</label>
+          <input type="email" name="signup-email">
+          <span class="small-note">Enter a valid e-mail address, ex: yourname@domainname.com</span>
+          <div style="margin-top: 10px;">
+            <input type="checkbox">
+            <label class="agreement">Yes, I would like to receive the latest news and I am over 16 years old (or have
+              the consent
+              of my parent(s) or legal guardian as applicable to sign up). By clicking 'Sign Up'
+              means I accept the Privacy Policy. </label>
+          </div>
+          <button style="margin-top: 10px; width: 100%;">YES, SIGN ME UP!</button>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+    <script src="assets/js/header.js"></script>
+</body>
+
+</html>

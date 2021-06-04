@@ -1,0 +1,96 @@
+/*Breacrumb*/
+.breadcrumb {color: white; font-size: 0.4em; margin: 20px 0px;}
+.breadcrumb h2 { width:100%; text-align:center; border-bottom: 2px solid white; line-height:0.1em; margin:10px 0 20px; } 
+.breadcrumb h2 span { background:black; padding:0 10px; }
+
+hr{
+    color:#707070;
+}
+
+.breadcrumb-mobile{
+    display: none;
+    background: black;
+    color: white;
+    text-align: center;
+    font-size: 0.5em;
+    margin-top: 20px;
+}
+
+.breadcrumb-mobile:before{
+    padding-left: 20px;
+    content:'\25C0';
+    float: left;
+    font-size: 2em;
+    color: white;
+    line-height: 15px;
+}
+
+
+/*Item List*/
+.item-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.card-item{
+    width: 24%;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #1B1A1D;
+    margin: 5px;
+    border: rgba(255, 252, 252, 0.1) 1px solid;
+    transition: width 2s;
+}
+
+.card-item a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.item-img{
+position: relative;
+}
+.item-img .image{
+display: block;
+height: 300px;
+}
+
+.like-icon{
+position: absolute;
+bottom:0;
+right:0;
+padding: 5px;
+}
+.card-item-description{
+    text-align: center;
+    font-size: 20px;
+    padding:10px;
+}
+
+.recommendation{
+    width: 70%;
+    margin:auto;
+    color: white;
+    text-align: center;
+}
+
+.price{
+    font-size: 15px;
+}
+
+.red{
+    color: red;
+}
+
+/*Mobile*/
+@media all and (max-width: 412px) {
+    .breadcrumb-mobile{
+        display: block;
+    }
+    .breadcrumb{
+        display: none;
+    }
+    
+}
