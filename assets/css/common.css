@@ -85,7 +85,7 @@ padding: 5px;
 }
 
 /*Mobile*/
-@media all and (max-width: 412px) {
+@media all and (max-width: 640px) {
     .breadcrumb-mobile{
         display: block;
     }

@@ -103,7 +103,7 @@ button {
 
 
 /*Mobile*/
-@media all and (max-width: 412px) {
+@media all and (max-width: 640px) {
   #content header{
     display: none;
   }

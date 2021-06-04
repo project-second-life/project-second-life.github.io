@@ -237,7 +237,7 @@
 }
 
 /*Mobile*/
-@media all and (max-width: 412px) {
+@media all and (max-width: 640px) {
   #main{
     width: 90%;
   }

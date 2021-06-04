@@ -57,7 +57,7 @@ footer{
 
 
 /*Mobile*/
-@media all and (max-width: 412px) {
+@media all and (max-width: 640px) {
   footer{
     width: 90%;
     
