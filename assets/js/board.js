@@ -46,8 +46,12 @@ largeGrid.addEventListener("click", function (e) {
     }
    
 
-    if(screen.width<412){
+    if(screen.width<640){
         totalItem.innerHTML = "SHOWING 12 OF 401 ITEMS";
+        for (i = 0; i < cardItems.length; i++) {
+            cardItems[i].style.display="block";
+            cardItems[i].style.width="46%";
+        }
     }else{
         for (i = 0; i < hideItem.length; i++) {
             hideItem[i].style.display="none";
@@ -70,7 +74,7 @@ singleGrid.addEventListener("click", function (e) {
         singleGridGraph[i].style.fill = "white";
     }
    
-    if(screen.width<412){
+    if(screen.width<640){
         totalItem.innerHTML = "SHOWING 6 OF 401 ITEMS";
 
         for (i = 0; i < cardItems.length; i++) {

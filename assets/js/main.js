@@ -43,10 +43,19 @@ next.addEventListener("click", function (e) {
   e.preventDefault();
   index = index + 1;
   prev.classList.add("show");
-  track.style.transform = "translateX(" + index * -width + "px)";
-  if (track.offsetWidth - index * width < index * width) {
-    next.classList.add("hide");
+  
+  if(screen.width<641){
+    track.style.transform = "translateX(" + index * -width + "px)";
+    if (track.offsetWidth - index * width < 0) {
+      next.classList.add("hide");
+    }
+  }else{
+    track.style.transform = "translateX(" + index * -width + "px)";
+    if (track.offsetWidth - index * width < index * width) {
+      next.classList.add("hide");
+    }
   }
+  
 }); 
 
 prev.addEventListener("click", function () {
