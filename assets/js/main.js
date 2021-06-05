@@ -48,8 +48,7 @@ next.addEventListener("click", function (e) {
   prev.classList.add("show");
   
   if(screen.width<641){
-    track.style.transform = "translateX(" +index * -width + "px)";
-    console.log(cardWidth - (index*width));
+    track.style.transform = "translateX(" +index * -(cardContainer.offsetWidth*1.5) + "px)";
     if (cardWidth - index * width < width) {
       next.classList.add("hide");
     }
