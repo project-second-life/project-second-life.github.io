@@ -114,8 +114,11 @@
   box-sizing: border-box;
   font-size: 0.8em;
   display: block;
+  margin-bottom: 4px;
 }
 #product-detail span img {
+  width: 100px;
+  height: 20px;
   vertical-align: middle;
 }
 
@@ -291,7 +294,11 @@
 
 .cart-modal-description {
   padding-top: 0px;
-  font-size: 25px;
+  font-size: 20px;
+}
+
+.cart-modal-description span{
+  font-size: 14px;
 }
 
 .cart-modal-footer {
@@ -357,5 +364,13 @@
 
   .cart-detail #qty {
     width: 40px;
+  }
+
+  .add-to-cart {
+    width: 100%;
+  }
+
+  .cart-detail .wrapping {
+    text-align: right;
   }
 }

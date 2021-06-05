@@ -213,8 +213,19 @@ h1{
 }
 .payment-type img{
     vertical-align: middle;
-    width: 25px;
-    height: 25px;
+    width: 100px;
+    height: 20px;
+}
+
+.credit-card-img{
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+}
+
+.credit-card-img img{
+    width: 30px;
+    height: 20px;
 }
 
 .payment-type-detail{
@@ -394,4 +405,7 @@ h1{
         width: 90%;
     }
     
+    .credit-card-img{
+        width: 70%;
+    }
 }
