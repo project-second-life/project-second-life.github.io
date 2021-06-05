@@ -81,6 +81,9 @@
 .dot:hover {
   background-color: #717171;
 }
+#product-images{
+    width: 48%;
+}
 
 #product-images .desktop-image {
   display: flex;
@@ -95,6 +98,7 @@
 }
 
 #product-detail {
+    width: 48%;
   margin-left: 20px;
   margin-top: -30px;
 }
@@ -320,7 +324,12 @@
     display: block;
   }
 
+  #product-images {
+    width: 100%;
+  }
+
   #product-detail {
+    width: 100%;
     margin-top: 30px;
   }
 
