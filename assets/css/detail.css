@@ -354,4 +354,8 @@
   .close {
     color: black;
   }
+
+  .cart-detail #qty {
+    width: 40px;
+  }
 }
