@@ -271,7 +271,7 @@ body {
   box-sizing: border-box;  
 }
 
-.mobile-header .logo-mobile{
+.mobile-header a .logo-mobile{
   box-sizing: border-box;
   width: 70px;
   height: 70px;
@@ -280,7 +280,7 @@ body {
 
 .mobile-header-left{
   justify-content: flex-start;
-  width: 50%;
+  width: 50%;;
 }
 
 .mobile-header-right{

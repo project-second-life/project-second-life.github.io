@@ -153,6 +153,7 @@
   position: absolute;
   top: 50%;
   transform: translatey(-50%);
+  background-color: white;
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -258,5 +259,9 @@
 
   .card-container {
     width: 40%;
+  }
+
+  .card-item.hide {
+    display: none;
   }
 }
