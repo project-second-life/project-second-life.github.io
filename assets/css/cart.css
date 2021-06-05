@@ -139,6 +139,7 @@ h1{
 
     .shopping-bag .checkout-button{
         width: 90%;
+        background-color: white;
     }
     
     
@@ -153,6 +154,7 @@ h1{
     }
     .checkout-button{
         width: 100%;
+        background-color: white;
     }
 
     .discount-input{
